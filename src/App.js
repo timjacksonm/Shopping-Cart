@@ -1,5 +1,7 @@
+import React from 'react';
+
 function App() {
-  return <div>test</div>;
+  return <div>Home Page</div>;
 }
 
 export default App;
