@@ -2,8 +2,8 @@ import React from 'react';
 
 function Footer() {
   return (
-    <div className='flex justify-center m-1 font-serif'>
-      <div>Created by TJ</div>
+    <div className='flex justify-center items-center m-1 px-4 py-1 font-serif bg-gray-800 max-w-xs self-center rounded-2xl'>
+      <div className='text-white text-sm md:text-lg'>Created by TJ</div>
       <div className='flex'>
         <a
           href='https://github.com/timjacksonm'
