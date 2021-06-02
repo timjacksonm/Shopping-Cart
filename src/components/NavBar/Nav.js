@@ -4,7 +4,7 @@ import Logo from '../../assets/Timberland Tools.png';
 function Nav() {
   return (
     <div className='text-yellow-300 font-serif flex justify-center items-center relative md: flex flex-col'>
-      <img className='m-3' src={Logo} alt='' width='35%' />
+      <img className='m-3 max-w-max' src={Logo} alt='' width='35%' />
       <ul className='flex w-1/6 justify-around my-3'>
         <li>
           <a
