@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import App from './App';
-import Shop from './components/pages/Shop';
-import Contact from './components/pages/Contact';
+import Shop from './components/Pages/Shop';
+import Contact from './components/Pages/Contact';
 
 function Routes() {
   return (
