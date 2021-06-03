@@ -1,6 +1,6 @@
 import React from 'react';
 import Footer from '../Footer/Footer';
-import Nav from '../NavBar/Nav';
+import Nav from '../NavBar/NavBar';
 import PhotoLeft from '../../assets/painting.jpeg';
 import PhotoRight from '../../assets/workshop.jpeg';
 import Logo from '../../assets/Timberland Tools.png';
@@ -9,7 +9,7 @@ function Home() {
   return (
     <div className='flex flex-col text-center h-screen bg-default-pattern bg-cover overflow-auto items-center'>
       <Nav />
-      <img className='m-3 max-w-max' src={Logo} alt='' width='35%' />
+      <img className='mt-28 mb-8 max-w-max' src={Logo} alt='' width='35%' />
       <main className='flex-grow p-5 bg-gray-800 text-white flex flex-col max-w-screen-lg self-center'>
         <h1 className='text-yellow-300 font-bold m-5 z-20 md:text-xl'>
           About Us
