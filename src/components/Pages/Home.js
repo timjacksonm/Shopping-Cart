@@ -15,7 +15,7 @@ function Home() {
           About Us
         </h1>
         <div className='flex flex-col items-center justify-between md:flex-row'>
-          <img className='m-3 z-0 w-3/4 md:w-2/6' src={PhotoLeft} alt='' />
+          <img className='m-3 w-3/4 md:w-2/6' src={PhotoLeft} alt='' />
           <p className='m-5 md:text-lg'>
             Eu culpa do ut fugiat magna incididunt non Lorem. Pariatur velit qui
             tempor cillum reprehenderit. Irure nisi Lorem cupidatat irure. Ea
@@ -42,7 +42,7 @@ function Home() {
             incididunt ea sunt exercitation nisi sint. Aute ex mollit sit
             nostrud consequat ex mollit id proident duis labore.
           </p>
-          <img className='m-3 z-0 md:w-1/2' src={PhotoRight} alt='' />
+          <img className='m-3 md:w-1/2' src={PhotoRight} alt='' />
         </div>
       </main>
       <Footer />

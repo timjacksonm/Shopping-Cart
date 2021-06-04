@@ -1,4 +1,5 @@
 import React from 'react';
+import ShoppingCart from './Cart/ShoppingCart';
 
 function Navigation() {
   return (
@@ -28,14 +29,7 @@ function Navigation() {
             Contact Us
           </a>
         </li>
-        <li className='absolute m-5 right-5 inline-block w-32'>
-          <div className='flex w-full justify-between'>
-            <button className='hover:border-b-2 font-bold hover:border-yellow-300'>
-              Cart
-            </button>
-            <div>Item Count</div>
-          </div>
-        </li>
+        <ShoppingCart />
       </ul>
     </nav>
   );
