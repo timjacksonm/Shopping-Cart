@@ -2,6 +2,7 @@ import React from 'react';
 import Nav from '../NavBar/NavBar';
 import Footer from '../Footer/Footer';
 import hammers from '../Inventory/Hammers';
+import circularSaws from '../Inventory/Saws';
 
 export default function Shop() {
   console.log(hammers);
