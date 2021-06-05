@@ -20,13 +20,13 @@ function MobileNavigation() {
       {open && (
         <ul className='absolute pl-4 pt-4 top-20 left-0 w-full text-left bg-gray-900 bg-opacity-50 border-t-2 border-yellow-300'>
           <li className='py-2 font-bold hover:text-yellow-300'>
-            <a href='/'>Home</a>
+            <a href='#/'>Home</a>
           </li>
           <li className='py-2 font-bold hover:text-yellow-300'>
-            <a href='/shop'>Shop</a>
+            <a href='#/Shop'>Shop</a>
           </li>
           <li className='py-2 font-bold hover:text-yellow-300'>
-            <a href='/contact'>Contact Us</a>
+            <a href='#/ContactUs'>Contact Us</a>
           </li>
         </ul>
       )}
