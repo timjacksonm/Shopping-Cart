@@ -9,11 +9,9 @@ function Home() {
   return (
     <div className='flex flex-col text-center h-screen bg-default-pattern bg-cover overflow-auto items-center'>
       <Nav />
-      <img className='mt-28 mb-8 max-w-max' src={Logo} alt='' width='35%' />
+      <img className='mt-28 mb-8 px-4' src={Logo} alt='' />
       <main className='flex-grow p-5 bg-gray-800 text-white flex flex-col max-w-screen-lg self-center'>
-        <h1 className='text-yellow-300 font-bold m-5 z-20 md:text-xl'>
-          About Us
-        </h1>
+        <h1 className='text-yellow-300 font-bold m-5 md:text-xl'>About Us</h1>
         <div className='flex flex-col items-center justify-between md:flex-row'>
           <img className='m-3 w-3/4 md:w-2/6' src={PhotoLeft} alt='' />
           <p className='m-5 md:text-lg'>
