@@ -16,7 +16,7 @@ function Navigation() {
         <li>
           <a
             className='m-5 inline-block hover:border-b-2 font-bold hover:border-yellow-300'
-            href='/shop'
+            href='/Shop'
           >
             Shop
           </a>
@@ -24,7 +24,7 @@ function Navigation() {
         <li>
           <a
             className='m-5 inline-block hover:border-b-2 font-bold hover:border-yellow-300'
-            href='/contact'
+            href='/ContactUs'
           >
             Contact Us
           </a>
