@@ -6,11 +6,11 @@ import Contact from './components/Pages/Contact';
 
 function Routes() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/'>
       <Switch>
-        <Route exact path='/' component={App} />
-        <Route exact path='/shop' component={Shop} />
-        <Route exact path='/contact' component={Contact} />
+        <Route exact path='/Shopping-Cart' component={App} />
+        <Route exact path='/Shopping-Cart/shop' component={Shop} />
+        <Route exact path='/Shopping-Cart/contact' component={Contact} />
       </Switch>
     </BrowserRouter>
   );
