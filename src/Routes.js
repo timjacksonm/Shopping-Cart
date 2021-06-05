@@ -1,18 +1,18 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 import App from './App';
 import Shop from './components/Pages/Shop';
 import Contact from './components/Pages/Contact';
 
 function Routes() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Switch>
-        <Route exact path='/Shopping-Cart' component={App} />
-        <Route exact path='/Shopping-Cart/Shop' component={Shop} />
-        <Route exact path='/Shopping-Cart/ContactUs' component={Contact} />
+        <Route exact path='/' component={App} />
+        <Route exact path='/Shop' component={Shop} />
+        <Route exact path='/ContactUs' component={Contact} />
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
