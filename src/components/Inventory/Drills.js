@@ -34,7 +34,7 @@ const drills = [
     category: 'Drills',
     id: 'bosch-drill',
     brand: 'Bosch',
-    name: '36-Volt 1/2-in Cordless Drill (2-Batteries and charger Included)',
+    name: '36-Volt 1/2-in Cordless Drill',
     price: '$499.00',
     description: [
       'KickBack Control – reduces the risk from sudden rotational torque reaction in a bind-up scenario',
@@ -48,7 +48,7 @@ const drills = [
     category: 'Drills',
     id: 'craftsman-drill',
     brand: 'Craftsman',
-    name: 'V20 20-Volt Max 1/2-in Cordless Drill (1-Battery and charger Included)',
+    name: 'V20 20-Volt Max 1/2-in Cordless Drill',
     price: '$59.00',
     description: [
       'HIGH PERFORMANCE: Produces 280 unit watts out for completing a variety of applications',
@@ -62,7 +62,7 @@ const drills = [
     category: 'Drills',
     id: 'kobalt-drill',
     brand: 'Kobalt',
-    name: 'XTR 24-Volt Max 1/2-in Brushless Cordless Drill (1-Battery and charger Included)',
+    name: 'XTR 24-Volt Max 1/2-in Brushless Cordless Drill',
     price: '$139.00',
     description: [
       'Brushless motor delivers up to 1,200 in-lbs of torque',
