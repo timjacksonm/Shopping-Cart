@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Shopping-Cart/static/css/main.e5e9e52c.chunk.css",
-    "main.js": "/Shopping-Cart/static/js/main.23d084cf.chunk.js",
-    "main.js.map": "/Shopping-Cart/static/js/main.23d084cf.chunk.js.map",
+    "main.css": "/Shopping-Cart/static/css/main.95c424dc.chunk.css",
+    "main.js": "/Shopping-Cart/static/js/main.1ab65b3a.chunk.js",
+    "main.js.map": "/Shopping-Cart/static/js/main.1ab65b3a.chunk.js.map",
     "runtime-main.js": "/Shopping-Cart/static/js/runtime-main.e7ad73ea.js",
     "runtime-main.js.map": "/Shopping-Cart/static/js/runtime-main.e7ad73ea.js.map",
-    "static/js/2.844c39ff.chunk.js": "/Shopping-Cart/static/js/2.844c39ff.chunk.js",
-    "static/js/2.844c39ff.chunk.js.map": "/Shopping-Cart/static/js/2.844c39ff.chunk.js.map",
+    "static/js/2.8dca19f2.chunk.js": "/Shopping-Cart/static/js/2.8dca19f2.chunk.js",
+    "static/js/2.8dca19f2.chunk.js.map": "/Shopping-Cart/static/js/2.8dca19f2.chunk.js.map",
     "index.html": "/Shopping-Cart/index.html",
-    "static/css/main.e5e9e52c.chunk.css.map": "/Shopping-Cart/static/css/main.e5e9e52c.chunk.css.map",
-    "static/js/2.844c39ff.chunk.js.LICENSE.txt": "/Shopping-Cart/static/js/2.844c39ff.chunk.js.LICENSE.txt",
+    "static/css/main.95c424dc.chunk.css.map": "/Shopping-Cart/static/css/main.95c424dc.chunk.css.map",
+    "static/js/2.8dca19f2.chunk.js.LICENSE.txt": "/Shopping-Cart/static/js/2.8dca19f2.chunk.js.LICENSE.txt",
     "static/media/Bosch_Drill_Image_1.aab09ac6.webp": "/Shopping-Cart/static/media/Bosch_Drill_Image_1.aab09ac6.webp",
     "static/media/Bosch_Drill_Image_2.ecabdfdf.webp": "/Shopping-Cart/static/media/Bosch_Drill_Image_2.ecabdfdf.webp",
     "static/media/Bosch_Drill_Image_3.5a288cb1.webp": "/Shopping-Cart/static/media/Bosch_Drill_Image_3.5a288cb1.webp",
@@ -68,7 +68,7 @@
     "static/media/Tekton_Claw_Preview_Image.437b628a.webp": "/Shopping-Cart/static/media/Tekton_Claw_Preview_Image.437b628a.webp",
     "static/media/Thors_Mjolnir_Image_1.16de20c4.webp": "/Shopping-Cart/static/media/Thors_Mjolnir_Image_1.16de20c4.webp",
     "static/media/Thors_Mjolnir_Image_2.74f2db20.webp": "/Shopping-Cart/static/media/Thors_Mjolnir_Image_2.74f2db20.webp",
-    "static/media/Thors_Mjolnir_Preview_Image.722818c7.webp": "/Shopping-Cart/static/media/Thors_Mjolnir_Preview_Image.722818c7.webp",
+    "static/media/Thors_Mjolnir_Preview_Image.f3f7d09a.webp": "/Shopping-Cart/static/media/Thors_Mjolnir_Preview_Image.f3f7d09a.webp",
     "static/media/Timberland Tools.bd6820c1.png": "/Shopping-Cart/static/media/Timberland Tools.bd6820c1.png",
     "static/media/index.css": "/Shopping-Cart/static/media/background.a838d250.jpeg",
     "static/media/painting.5a2a925d.jpeg": "/Shopping-Cart/static/media/painting.5a2a925d.jpeg",
@@ -76,8 +76,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e7ad73ea.js",
-    "static/js/2.844c39ff.chunk.js",
-    "static/css/main.e5e9e52c.chunk.css",
-    "static/js/main.23d084cf.chunk.js"
+    "static/js/2.8dca19f2.chunk.js",
+    "static/css/main.95c424dc.chunk.css",
+    "static/js/main.1ab65b3a.chunk.js"
   ]
 }
