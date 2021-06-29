@@ -18,9 +18,8 @@ export default function InventoryContainer(props) {
             <button
               key={id}
               className='flex flex-col items-center w-64 md:border-2 m-2'
-              onClick={() => {
-                console.log(id);
-              }}
+              id={id}
+              onClick={props.clickHandler}
             >
               <img
                 className='p-4 border-t-2 md:border-t-0 cursor-pointer'
@@ -28,13 +27,22 @@ export default function InventoryContainer(props) {
                 alt=''
                 height='220px'
                 width='220px'
+                id={id}
               />
               <div>
-                <div className='font-bold text-left hover:text-yellow-300 flex justify-between'>
-                  <div>{brand}</div>
-                  <div className='text-yellow-300'>{price}</div>
+                <div
+                  id={id}
+                  className='font-bold text-left hover:text-yellow-300 flex justify-between'
+                >
+                  <div id={id}>{brand}</div>
+                  <div id={id} className='text-yellow-300'>
+                    {price}
+                  </div>
                 </div>
-                <div className='text-sm text-left break-words pb-2 w-44 hover:text-yellow-300'>
+                <div
+                  id={id}
+                  className='text-sm text-left break-words pb-2 w-44 hover:text-yellow-300'
+                >
                   {name}
                 </div>
               </div>
