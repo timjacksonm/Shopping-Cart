@@ -61,7 +61,7 @@ const hammers = [
     category: 'Hammers',
     id: 'thors-mjolnir-hammer',
     brand: 'Thor',
-    name: "42.3-lb Lightning Hammer known as 'Mjölnir'",
+    name: '42.3-lb Lightning Hammer known as Mjölnir',
     price: '$13.58',
     description: [
       'Long metal hilt made of Uru and is wrapped in a strip of leather',

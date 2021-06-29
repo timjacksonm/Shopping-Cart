@@ -11,12 +11,16 @@ export default function Shop() {
   const [itemSelected, setItemSelected] = useState(false);
   const [Item, setItem] = useState(null);
   const inventory = [...hammers, ...circularSaws, ...toolbags, ...drills];
+  const [cart, setCart] = useState(null);
 
   const clickHandler = (e) => {
     setItem(...inventory.filter((item) => item.id === e.target.id));
     setItemSelected(true);
   };
+
   const closeBtn = () => setItemSelected(false);
+
+  const addToCart = (e) => {};
   return (
     <div className='relative flex flex-col flex-wrap text-center bg-default-pattern bg-cover overflow-auto items-center'>
       <Nav />
