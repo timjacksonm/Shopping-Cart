@@ -16,10 +16,11 @@ export default function Shop() {
     setItem(...inventory.filter((item) => item.id === e.target.id));
     setItemSelected(true);
   };
+  const closeBtn = () => setItemSelected(false);
   return (
     <div className='relative flex flex-col flex-wrap text-center bg-default-pattern bg-cover overflow-auto items-center'>
       <Nav />
-      {itemSelected && <ItemExpanded Item={Item} />}
+      {itemSelected && <ItemExpanded Item={Item} closeWindow={closeBtn} />}
       <InventoryContainer inventory={inventory} clickHandler={clickHandler} />
     </div>
   );
