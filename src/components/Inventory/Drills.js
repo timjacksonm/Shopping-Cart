@@ -21,7 +21,7 @@ const drills = [
     id: 'dewalt-drill',
     brand: 'Dewalt',
     name: '20-Volt Max 1/2-in Brushless Cordless Drill',
-    price: '$119.00',
+    price: '119.00',
     description: [
       'DEWALT brushless motor delivers more run time over brushed',
       'Compact (7.52-front to back), lightweight design fits into tight areas',
@@ -35,7 +35,7 @@ const drills = [
     id: 'bosch-drill',
     brand: 'Bosch',
     name: '36-Volt 1/2-in Cordless Drill',
-    price: '$499.00',
+    price: '499.00',
     description: [
       'KickBack Control – reduces the risk from sudden rotational torque reaction in a bind-up scenario',
       'Precision clutch with 25+1 settings – provides driving accuracy for reduced fastener damage',
@@ -49,7 +49,7 @@ const drills = [
     id: 'craftsman-drill',
     brand: 'Craftsman',
     name: 'V20 20-Volt Max 1/2-in Cordless Drill',
-    price: '$59.00',
+    price: '59.00',
     description: [
       'HIGH PERFORMANCE: Produces 280 unit watts out for completing a variety of applications',
       'INCREASED SPEED: 2-Speed gearbox with speeds of 0-350/0-1,500',
@@ -63,7 +63,7 @@ const drills = [
     id: 'kobalt-drill',
     brand: 'Kobalt',
     name: 'XTR 24-Volt Max 1/2-in Brushless Cordless Drill',
-    price: '$139.00',
+    price: '139.00',
     description: [
       'Brushless motor delivers up to 1,200 in-lbs of torque',
       'Anti-kickback technology for improved control',

@@ -4,7 +4,7 @@ import { CgCloseO } from 'react-icons/cg';
 import { useState } from 'react';
 import ShoppingCart from './Cart/ShoppingCart';
 
-function MobileNavigation() {
+function MobileNavigation(props) {
   const [open, setOpen] = useState(false);
 
   const hamburgerIcon = (
@@ -15,7 +15,7 @@ function MobileNavigation() {
 
   return (
     <nav className='flex justify-end bg-gray-700 w-full h-20 px-5 items-center relative md:hidden'>
-      <ShoppingCart />
+      <ShoppingCart cartPrice={props.cartPrice} />
       {open ? closeIcon : hamburgerIcon}
       {open && (
         <ul className='absolute pl-4 pt-4 top-20 left-0 w-full text-left bg-gray-900 bg-opacity-50 border-t-2 border-yellow-300'>

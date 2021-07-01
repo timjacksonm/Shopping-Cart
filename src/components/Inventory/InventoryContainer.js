@@ -1,9 +1,14 @@
 import React from 'react';
+import hammers from '../Inventory/Hammers';
+import circularSaws from '../Inventory/Saws';
+import toolbags from '../Inventory/Toolbags';
+import drills from '../Inventory/Drills';
 
 export default function InventoryContainer(props) {
+  const inventory = [...hammers, ...circularSaws, ...toolbags, ...drills];
   return (
     <div className='flex flex-grow flex-wrap py-20 justify-center bg-gray-300 bg-opacity-75'>
-      {props.inventory.map(
+      {inventory.map(
         ({
           category,
           id,
@@ -19,7 +24,7 @@ export default function InventoryContainer(props) {
               key={id}
               className='flex flex-col items-center w-64 md:border-2 m-2'
               id={id}
-              onClick={props.clickHandler}
+              onClick={(e) => props.selectItem(e, inventory)}
             >
               <img
                 className='p-4 border-t-2 md:border-t-0 cursor-pointer'
@@ -36,7 +41,7 @@ export default function InventoryContainer(props) {
                 >
                   <div id={id}>{brand}</div>
                   <div id={id} className='text-yellow-300'>
-                    {price}
+                    {`$${price}`}
                   </div>
                 </div>
                 <div

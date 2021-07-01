@@ -1,7 +1,8 @@
 import React from 'react';
 import ShoppingCart from './Cart/ShoppingCart';
 
-function Navigation() {
+function Navigation(props) {
+  console.log(props);
   return (
     <nav className='hidden md:block'>
       <ul className='flex bg-gray-700 w-full h-20 px-5 items-center relative'>
@@ -29,7 +30,7 @@ function Navigation() {
             Contact Us
           </a>
         </li>
-        <ShoppingCart />
+        <ShoppingCart cartPrice={props.cartPrice} />
       </ul>
     </nav>
   );

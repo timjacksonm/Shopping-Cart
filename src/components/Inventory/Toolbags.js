@@ -17,7 +17,7 @@ const toolBags = [
     id: 'kobalt-toolbag',
     brand: 'Kobalt',
     name: '15-in Zippered Tool Bag',
-    price: '$14.98',
+    price: '14.98',
     description: [
       'Made of 600D material for durability and resistance to water',
       'Large main compartment for easy access to interior and large pockets for more storage',
@@ -31,7 +31,7 @@ const toolBags = [
     id: 'craftsman-toolbag',
     brand: 'Craftsman',
     name: 'VERSASTACK 17-in Zippered Tool Bag',
-    price: '$59.98',
+    price: '59.98',
     description: [
       'Premium-grade 1680 denier material in a heavy-duty construction resists wear and tear and moisture for lasting durability',
       'Hi-Vis Dual Zippers and Pocket Accents help quickly store or access tools',
@@ -45,7 +45,7 @@ const toolBags = [
     id: 'dewalt-toolbag',
     brand: 'Dewalt',
     name: '12-in Zippered Tool Bag',
-    price: '$67.95',
+    price: '67.95',
     description: [
       'Pop open design with large interior compartment allows for easy access to tools and parts',
       '26 Exterior pockets allow for thousands of organization options, including 2 flap covered pockets with hook and loop closures to...',

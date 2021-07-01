@@ -20,7 +20,7 @@ const hammers = [
     id: 'kobalt-claw-hammer',
     brand: 'Kobalt',
     name: '16-oz Smooth Face Steel Head Fiberglass Claw Hammer',
-    price: '$9.98',
+    price: '9.98',
     description: [
       'Forged and heat-treated head for durability',
       'Fiberglass core and bi-material slip-resistant handle',
@@ -34,7 +34,7 @@ const hammers = [
     id: 'craftsman-claw-hammer',
     brand: 'Craftsman',
     name: '16-oz Smooth Face Steel Head Fiberglass Claw Hammer',
-    price: '$11.98',
+    price: '11.98',
     description: [
       'DURABILITY: Overstrike protection where fiberglass handles are most prone to break',
       'IMPROVED GRIP DURING USE: Overmold grip',
@@ -48,7 +48,7 @@ const hammers = [
     id: 'tekton-claw-hammer',
     brand: 'Tekton',
     name: '16-oz Smooth Face Steel Head Wood Claw Hammer',
-    price: '$13.58',
+    price: '13.58',
     description: [
       'Classic hickory handle naturally damps stinging vibrations',
       'Magnetic slot holds nail so you can start it and drive it with one hand',
@@ -62,7 +62,7 @@ const hammers = [
     id: 'thors-mjolnir-hammer',
     brand: 'Thor',
     name: '42.3-lb Lightning Hammer known as Mjölnir',
-    price: '$13.58',
+    price: '13.58',
     description: [
       'Long metal hilt made of Uru and is wrapped in a strip of leather',
       'Useless to non worthy wielder',
