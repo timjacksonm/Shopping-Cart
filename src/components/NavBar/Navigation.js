@@ -10,7 +10,7 @@ function Navigation(props) {
             className='m-5 inline-block hover:border-b-2 font-bold hover:border-yellow-300'
             href='#/'
             onClick={(e) => {
-              if (props.cart.length > 0) {
+              if (window.location.href.includes('#/Shop')) {
                 let choice = window.confirm(
                   'Leave shop page? Cart will be reset.'
                 );
@@ -39,7 +39,7 @@ function Navigation(props) {
             Contact Us
           </a>
         </li>
-        {window.location.href.includes('Shopping-Cart#/Shop') && ( //Show the cart only on the shop page.
+        {window.location.href.includes('#/Shop') && ( //Show the cart only on the shop page.
           <ShoppingCart cartPrice={props.cartPrice} cart={props.cart} />
         )}
       </ul>

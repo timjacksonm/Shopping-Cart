@@ -15,7 +15,7 @@ function MobileNavigation(props) {
 
   return (
     <nav className='flex justify-end bg-gray-700 w-full h-20 px-5 items-center relative md:hidden'>
-      {window.location.href === 'http://localhost:3000/Shopping-Cart#/Shop' && ( //Show the cart only on the shop page.
+      {window.location.href.includes('#/Shop') && ( //Show the cart only on the shop page.
         <ShoppingCart cartPrice={props.cartPrice} cart={props.cart} />
       )}
       {open ? closeIcon : hamburgerIcon}
