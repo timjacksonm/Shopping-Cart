@@ -11,11 +11,13 @@ function Navigation(props) {
             href='#/'
             onClick={(e) => {
               if (window.location.href.includes('#/Shop')) {
-                let choice = window.confirm(
-                  'Leave shop page? Cart will be reset.'
-                );
-                if (!choice) {
-                  e.preventDefault();
+                if (props.cart.length > 0) {
+                  let choice = window.confirm(
+                    'Leave shop page? Cart will be reset.'
+                  );
+                  if (!choice) {
+                    e.preventDefault();
+                  }
                 }
               }
             }}
