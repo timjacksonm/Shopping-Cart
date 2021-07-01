@@ -2,7 +2,6 @@ import React from 'react';
 import ShoppingCart from './Cart/ShoppingCart';
 
 function Navigation(props) {
-  console.log(props);
   return (
     <nav className='hidden md:block'>
       <ul className='flex bg-gray-700 w-full h-20 px-5 items-center relative'>
@@ -30,7 +29,10 @@ function Navigation(props) {
             Contact Us
           </a>
         </li>
-        <ShoppingCart cartPrice={props.cartPrice} />
+        {window.location.href ===
+          'http://localhost:3000/Shopping-Cart#/Shop' && ( //Show the cart only on the shop page.
+          <ShoppingCart cartPrice={props.cartPrice} cart={props.cart} />
+        )}
       </ul>
     </nav>
   );

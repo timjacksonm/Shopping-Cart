@@ -3,11 +3,10 @@ import Navigation from './Navigation';
 import MobileNavigation from './MobileNavigation';
 
 function NavBar(props) {
-  console.log(props);
   return (
     <div className='w-screen m-0 p-0 fixed text-white'>
-      <Navigation cartPrice={props.cartPrice} />
-      <MobileNavigation cartPrice={props.cartPrice} />
+      <Navigation cartPrice={props.cartPrice} cart={props.cart} />
+      <MobileNavigation cartPrice={props.cartPrice} cart={props.cart} />
     </div>
   );
 }
