@@ -1,4 +1,5 @@
 import React from 'react';
+import ImageCarousel from './ImageCarousel/ImageCarousel';
 import { FaWindowClose, FaPlusSquare, FaMinusSquare } from 'react-icons/fa';
 
 export default function itemExpanded(props) {
@@ -24,14 +25,7 @@ export default function itemExpanded(props) {
         <div className='text-white px-1'>{props.item.name}</div>
         <div className='flex flex-col items-center justify-center md:flex-row'>
           <div className='flex flex-col md:flex-row'>
-            <img
-              src={props.item.gallery[1]}
-              alt='asdf'
-              className='md:w-1/2 md:m-2 py-4'
-            />
-            {/* {props.item.gallery.map((image) => (
-            <img src={image} alt='asdf' width='' />
-          ))} */}
+            <ImageCarousel itemData={props.item} />
             <ul className='flex flex-col text-left w-3/4 self-center text-white text-sm list-inside md:text-base lg:list-disc md:p-2'>
               {props.item.description.map((bulletPoint) => (
                 <li key={bulletPoint} className='pt-1'>

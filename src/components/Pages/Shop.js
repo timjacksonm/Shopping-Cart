@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import NavBar from '../NavBar/NavBar';
 import InventoryContainer from '../Inventory/InventoryContainer';
-import ItemExpanded from '../Inventory/ItemExpanded';
+import ItemExpanded from '../Inventory/ProductView/ItemExpanded';
 
 export default function Shop() {
   const [itemSelected, setItemSelected] = useState(false); // t or f to display ItemExpanded component.
