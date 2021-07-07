@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaAngleRight, FaAngleLeft } from 'react-icons/fa';
 
 function Arrows(props) {
   const arrowNext = () => {
@@ -46,12 +47,16 @@ function Arrows(props) {
     }
   };
   return (
-    <div className='absolute'>
-      <button id='next' className='' onClick={arrowPrev}>
-        Prev
+    <div className='opacity-75 w-full hover:opacity-100'>
+      <button id='next' className='absolute top-1/2 left-0' onClick={arrowPrev}>
+        <FaAngleLeft size='2.5em' />
       </button>
-      <button id='prev' className='' onClick={arrowNext}>
-        Next
+      <button
+        id='prev'
+        className='absolute top-1/2 right-0'
+        onClick={arrowNext}
+      >
+        <FaAngleRight size='2.5em' />
       </button>
     </div>
   );

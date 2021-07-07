@@ -11,8 +11,10 @@ function ImageCarousel(props) {
 
   const nextImageBtn = () => {};
   return (
-    <div className='w-96 h-96 overflow-hidden'>
-      <SliderContent itemData={props.itemData} imageStyle={imageStyle} />
+    <div className='relative'>
+      <div className='w-96 h-96 overflow-hidden'>
+        <SliderContent itemData={props.itemData} imageStyle={imageStyle} />
+      </div>
       <Arrows
         imageStyle={imageStyle}
         setImageStyle={setImageStyle}
