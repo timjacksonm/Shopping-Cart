@@ -5,6 +5,7 @@ import SliderContent from './SliderContent';
 
 function ImageCarousel(props) {
   const [imageCount, setImageCount] = useState(1);
+  // const [imageTransition, setStyles] = useState('flex w-full');
 
   const nextImageBtn = () => {};
   return (

@@ -6,6 +6,9 @@ module.exports = {
       backgroundImage: (theme) => ({
         'default-pattern': "url('./assets/background.jpeg')",
       }),
+      translate: {
+        fullx1: '-200%',
+      },
     },
   },
   variants: {
