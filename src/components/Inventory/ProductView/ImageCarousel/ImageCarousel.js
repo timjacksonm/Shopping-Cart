@@ -6,15 +6,13 @@ import SliderContent from './SliderContent';
 function ImageCarousel(props) {
   const [imageSelected, setImageSelected] = useState(1);
   const [imageStyle, setImageStyle] = useState(
-    'flex w-96 h-96 translate-x-0 transition-transform duration-500 ease-in-out'
+    'flex translate-x-0 transition-transform duration-500 ease-in-out'
   );
 
   const nextImageBtn = () => {};
   return (
-    <div className='relative'>
-      <div className='w-96 h-96 overflow-hidden'>
-        <SliderContent itemData={props.itemData} imageStyle={imageStyle} />
-      </div>
+    <div className='relative w-80 h-80 mx-auto my-4 overflow-hidden max-w-md rounded lg:w-auto lg:h-auto'>
+      <SliderContent itemData={props.itemData} imageStyle={imageStyle} />
       <Arrows
         imageStyle={imageStyle}
         setImageStyle={setImageStyle}

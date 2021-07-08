@@ -6,19 +6,19 @@ function Arrows(props) {
     switch (props.imageSelected) {
       case 1:
         props.setImageStyle(
-          'flex w-96 h-96 transform -translate-x-full transition-transform duration-500 ease-in-out'
+          'flex transform -translate-x-full transition-transform duration-500 ease-in-out'
         );
         props.setImageSelected(2);
         break;
       case 2:
         props.setImageStyle(
-          'flex w-96 h-96 transform translate-x-fullx1 transition-transform duration-500 ease-in-out'
+          'flex transform translate-x-fullx1 transition-transform duration-500 ease-in-out'
         );
         props.setImageSelected(3);
         break;
       default:
         props.setImageStyle(
-          'flex w-96 h-96 translate-x-0 transition-transform duration-500 ease-in-out'
+          'flex translate-x-0 transition-transform duration-500 ease-in-out'
         );
         props.setImageSelected(1);
         break;
@@ -28,19 +28,19 @@ function Arrows(props) {
     switch (props.imageSelected) {
       case 1:
         props.setImageStyle(
-          'flex w-96 h-96 transform translate-x-fullx1 transition-transform duration-500 ease-in-out'
+          'flex transform translate-x-fullx1 transition-transform duration-500 ease-in-out'
         );
         props.setImageSelected(3);
         break;
       case 2:
         props.setImageStyle(
-          'flex w-96 h-96 translate-x-0 transition-transform duration-500 ease-in-out'
+          'flex translate-x-0 transition-transform duration-500 ease-in-out'
         );
         props.setImageSelected(1);
         break;
       default:
         props.setImageStyle(
-          'flex w-96 h-96 transform -translate-x-full transition-transform duration-500 ease-in-out'
+          'flex transform -translate-x-full transition-transform duration-500 ease-in-out'
         );
         props.setImageSelected(2);
         break;

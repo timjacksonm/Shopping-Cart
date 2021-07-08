@@ -11,8 +11,8 @@ export default function itemExpanded(props) {
     props.setQuanity((prevState) => --prevState);
   };
   return (
-    <div className='flex absolute top-20 bg-gray-600 bg-opacity-30 h-full w-full md:fixed md:justify-center'>
-      <div className='flex flex-col items-center h-1/6 bg-gray-600 relative py-5 md:justify-around md:p-4 md:w-1/2 md:m-10 md:h-4/6 md:rounded md:overflow-hidden xl:h-5/6'>
+    <div className='flex absolute top-20 bg-gray-600 bg-opacity-30 w-full h-full md:fixed md:justify-center'>
+      <div className='flex flex-col items-center h-1/6 bg-gray-600 overflow-hidden relative rounded py-auto md:justify-around md:w-auto md:m-10 md:h-4/6 xl:h-5/6 lg:max-w-5xl'>
         <div className='w-full py-5'>
           <FaWindowClose
             onClick={props.closeWindow}
@@ -26,7 +26,7 @@ export default function itemExpanded(props) {
         <div className='flex flex-col items-center justify-center md:flex-row'>
           <div className='flex flex-col md:flex-row'>
             <ImageCarousel itemData={props.item} />
-            <ul className='flex flex-col text-left w-1/2 self-center text-white text-sm list-inside md:text-base lg:list-disc md:p-2'>
+            <ul className='flex flex-col text-left w-2/5 self-center text-white text-sm list-inside md:text-base lg:list-disc md:p-2'>
               {props.item.description.map((bulletPoint) => (
                 <li key={bulletPoint} className='pt-1'>
                   {bulletPoint}
@@ -52,7 +52,7 @@ export default function itemExpanded(props) {
         </div>
         <button
           onClick={props.addToCart}
-          className='border-2 p-2 m-1 rounded-lg text-yellow-300 font-bold hover:bg-yellow-300 hover:text-black hover:border-black'
+          className='border-2 p-2 m-4 rounded-lg text-yellow-300 font-bold hover:bg-yellow-300 hover:text-black hover:border-black'
         >
           Add to Cart
         </button>
