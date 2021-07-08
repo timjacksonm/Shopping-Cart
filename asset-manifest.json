@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Shopping-Cart/static/css/main.48e45193.chunk.css",
-    "main.js": "/Shopping-Cart/static/js/main.753bde02.chunk.js",
-    "main.js.map": "/Shopping-Cart/static/js/main.753bde02.chunk.js.map",
+    "main.css": "/Shopping-Cart/static/css/main.ae73419e.chunk.css",
+    "main.js": "/Shopping-Cart/static/js/main.557f327f.chunk.js",
+    "main.js.map": "/Shopping-Cart/static/js/main.557f327f.chunk.js.map",
     "runtime-main.js": "/Shopping-Cart/static/js/runtime-main.e7ad73ea.js",
     "runtime-main.js.map": "/Shopping-Cart/static/js/runtime-main.e7ad73ea.js.map",
     "static/js/2.3ec403ac.chunk.js": "/Shopping-Cart/static/js/2.3ec403ac.chunk.js",
     "static/js/2.3ec403ac.chunk.js.map": "/Shopping-Cart/static/js/2.3ec403ac.chunk.js.map",
     "index.html": "/Shopping-Cart/index.html",
-    "static/css/main.48e45193.chunk.css.map": "/Shopping-Cart/static/css/main.48e45193.chunk.css.map",
+    "static/css/main.ae73419e.chunk.css.map": "/Shopping-Cart/static/css/main.ae73419e.chunk.css.map",
     "static/js/2.3ec403ac.chunk.js.LICENSE.txt": "/Shopping-Cart/static/js/2.3ec403ac.chunk.js.LICENSE.txt",
     "static/media/Bosch_Drill_Image_1.aab09ac6.webp": "/Shopping-Cart/static/media/Bosch_Drill_Image_1.aab09ac6.webp",
     "static/media/Bosch_Drill_Image_2.ecabdfdf.webp": "/Shopping-Cart/static/media/Bosch_Drill_Image_2.ecabdfdf.webp",
@@ -68,6 +68,7 @@
     "static/media/Tekton_Claw_Preview_Image.437b628a.webp": "/Shopping-Cart/static/media/Tekton_Claw_Preview_Image.437b628a.webp",
     "static/media/Thors_Mjolnir_Image_1.b38377c6.webp": "/Shopping-Cart/static/media/Thors_Mjolnir_Image_1.b38377c6.webp",
     "static/media/Thors_Mjolnir_Image_2.88f84027.webp": "/Shopping-Cart/static/media/Thors_Mjolnir_Image_2.88f84027.webp",
+    "static/media/Thors_Mjolnir_Image_3.fd302a2f.webp": "/Shopping-Cart/static/media/Thors_Mjolnir_Image_3.fd302a2f.webp",
     "static/media/Thors_Mjolnir_Preview_Image.f3f7d09a.webp": "/Shopping-Cart/static/media/Thors_Mjolnir_Preview_Image.f3f7d09a.webp",
     "static/media/Timberland Tools.bd6820c1.png": "/Shopping-Cart/static/media/Timberland Tools.bd6820c1.png",
     "static/media/index.css": "/Shopping-Cart/static/media/background.a838d250.jpeg",
@@ -77,7 +78,7 @@
   "entrypoints": [
     "static/js/runtime-main.e7ad73ea.js",
     "static/js/2.3ec403ac.chunk.js",
-    "static/css/main.48e45193.chunk.css",
-    "static/js/main.753bde02.chunk.js"
+    "static/css/main.ae73419e.chunk.css",
+    "static/js/main.557f327f.chunk.js"
   ]
 }
