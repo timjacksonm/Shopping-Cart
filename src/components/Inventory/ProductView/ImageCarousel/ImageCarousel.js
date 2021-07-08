@@ -8,8 +8,6 @@ function ImageCarousel(props) {
   const [imageStyle, setImageStyle] = useState(
     'flex translate-x-0 transition-transform duration-500 ease-in-out'
   );
-
-  const nextImageBtn = () => {};
   return (
     <div className='relative w-80 h-80 mx-auto my-4 overflow-hidden max-w-md rounded lg:w-auto lg:h-auto'>
       <SliderContent itemData={props.itemData} imageStyle={imageStyle} />
@@ -19,7 +17,7 @@ function ImageCarousel(props) {
         imageSelected={imageSelected}
         setImageSelected={setImageSelected}
       />
-      <Dots itemData={props.itemData} />
+      <Dots itemData={props.itemData} imageSelected={imageSelected} />
     </div>
   );
 }
