@@ -11,7 +11,7 @@ export default function itemExpanded(props) {
     props.setQuanity((prevState) => --prevState);
   };
   return (
-    <div className='flex absolute top-20 bg-gray-600 bg-opacity-30 w-full h-full md:fixed md:justify-center'>
+    <div className='flex absolute top-20 bg-gray-600 bg-opacity-30 w-full h-full overflow-visible md:fixed md:justify-center'>
       <div className='flex flex-col items-center h-1/6 bg-gray-600 overflow-hidden relative rounded py-auto md:justify-around md:w-auto md:m-10 md:h-4/6 xl:h-5/6 lg:max-w-5xl'>
         <div className='w-full py-5'>
           <FaWindowClose

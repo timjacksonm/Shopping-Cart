@@ -13,6 +13,7 @@ import tektonClawHammer3 from '../../assets/products/Tekton_Claw_Image_3.webp';
 import prevThorsMjolnirHammer from '../../assets/products/Thors_Mjolnir_Preview_Image.webp';
 import ThorsMjolnirHammer1 from '../../assets/products/Thors_Mjolnir_Image_1.webp';
 import ThorsMjolnirHammer2 from '../../assets/products/Thors_Mjolnir_Image_2.webp';
+import ThorsMjolnirHammer3 from '../../assets/products/Thors_Mjolnir_Image_3.webp';
 
 const hammers = [
   {
@@ -69,7 +70,7 @@ const hammers = [
       'Can use forces of nature. Interdimensional travel - flight',
     ],
     previewImage: prevThorsMjolnirHammer,
-    gallery: [ThorsMjolnirHammer1, ThorsMjolnirHammer2],
+    gallery: [ThorsMjolnirHammer1, ThorsMjolnirHammer2, ThorsMjolnirHammer3],
   },
 ];
 export default hammers;
