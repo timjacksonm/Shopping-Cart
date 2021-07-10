@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { RiShoppingCartLine } from 'react-icons/ri';
+import Storage from '../../LocalStorage/LocalStorage';
 
 function ShoppingCart(props) {
   const [cartPrice, setCartPrice] = useState();
-
+  console.log(props);
+  Storage.storeData(props.cart);
   const displayItemCount =
     props.cart.length === 1
       ? `${props.cart.length} Item`
@@ -25,7 +27,9 @@ function ShoppingCart(props) {
   }, [cartPrice, props.cart]);
   return (
     <div className='flex justify-center items-center md:absolute md:right-10'>
-      <RiShoppingCartLine size='2em' className='cursor-pointer' />
+      <a href='#/Shop/Cart'>
+        <RiShoppingCartLine size='2em' className='cursor-pointer' />
+      </a>
       <div className='flex flex-col px-0.5'>
         <div className='text-sm'>{cartPrice}</div>
         <div className='text-sm text-yellow-300 font-bold'>
