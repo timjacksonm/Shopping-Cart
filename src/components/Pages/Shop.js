@@ -2,11 +2,14 @@ import React, { useState } from 'react';
 import NavBar from '../NavBar/NavBar';
 import InventoryContainer from '../Inventory/InventoryContainer';
 import ItemExpanded from '../Inventory/ProductView/ItemExpanded';
+import Storage from '../LocalStorage/LocalStorage';
 
 export default function Shop() {
   const [itemSelected, setItemSelected] = useState(false); // t or f to display ItemExpanded component.
   const [item, setItem] = useState(null); //Current selection object. Used in displaying additional info in expanded item menu. Moved to cart if added.
-  const [cart, setCart] = useState([]);
+  const [cart, setCart] = useState(
+    localStorage.length === 0 ? [] : Storage.retrieveData()
+  );
   const [quanity, setQuanity] = useState(1); //This state is for expanded item menu. Used when adding 1 or more of the same item to cart.
 
   const clickHandler = (event, itemArray) => {
