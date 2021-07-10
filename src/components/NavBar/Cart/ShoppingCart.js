@@ -28,9 +28,12 @@ function ShoppingCart(props) {
   return (
     <div className='flex justify-center items-center md:absolute md:right-10'>
       <a href='#/Shop/Cart'>
-        <RiShoppingCartLine size='2em' className='cursor-pointer' />
+        <RiShoppingCartLine
+          size='2em'
+          className='cursor-pointer hover:text-yellow-300'
+        />
       </a>
-      <div className='flex flex-col px-0.5'>
+      <div className='flex flex-col px-0.5 mx-2'>
         <div className='text-sm'>{cartPrice}</div>
         <div className='text-sm text-yellow-300 font-bold'>
           {props.cart.length === 0 ? null : displayItemCount}
