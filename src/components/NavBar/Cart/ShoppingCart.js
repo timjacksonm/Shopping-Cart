@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { RiShoppingCartLine } from 'react-icons/ri';
+import Storage from '../../LocalStorage/LocalStorage';
 
 function ShoppingCart(props) {
   const [cartPrice, setCartPrice] = useState();
-
+  Storage.storeData(props.cart);
   const displayItemCount =
     props.cart.length === 1
       ? `${props.cart.length} Item`
@@ -22,11 +23,17 @@ function ShoppingCart(props) {
       setCartPrice(`$${props.cart[0].price}`);
       return;
     }
+    setCartPrice();
   }, [cartPrice, props.cart]);
   return (
     <div className='flex justify-center items-center md:absolute md:right-10'>
-      <RiShoppingCartLine size='2em' className='cursor-pointer' />
-      <div className='flex flex-col px-0.5'>
+      <a href='#/Shop/Cart'>
+        <RiShoppingCartLine
+          size='2em'
+          className='cursor-pointer hover:text-yellow-300'
+        />
+      </a>
+      <div className='flex flex-col px-0.5 mx-2'>
         <div className='text-sm'>{cartPrice}</div>
         <div className='text-sm text-yellow-300 font-bold'>
           {props.cart.length === 0 ? null : displayItemCount}

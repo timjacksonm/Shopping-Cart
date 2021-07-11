@@ -4,7 +4,7 @@ import MobileNavigation from './MobileNavigation';
 
 function NavBar(props) {
   return (
-    <div className='w-screen m-0 p-0 fixed text-white'>
+    <div className='w-screen m-0 p-0 fixed text-white z-50'>
       <Navigation cartPrice={props.cartPrice} cart={props.cart} />
       <MobileNavigation cartPrice={props.cartPrice} cart={props.cart} />
     </div>
