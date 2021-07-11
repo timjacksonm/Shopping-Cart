@@ -28,7 +28,8 @@ function MobileNavigation(props) {
             <a href='#/Shop'>Shop</a>
           </li>
           <li className='py-2 font-bold hover:text-yellow-300'>
-            <a href='#/ContactUs'>Contact Us</a>
+            Contact Us
+            {/* <a href='#/ContactUs'></a> */}
           </li>
         </ul>
       )}

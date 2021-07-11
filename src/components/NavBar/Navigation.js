@@ -22,12 +22,12 @@ function Navigation(props) {
           </a>
         </li>
         <li>
-          <a
+          {/* <a
             className='m-5 inline-block hover:border-b-2 font-bold hover:border-yellow-300'
             href='#/ContactUs'
-          >
-            Contact Us
-          </a>
+          > */}
+          Contact Us
+          {/* </a> */}
         </li>
         {window.location.href.includes('#/Shop') && ( //Show the cart only on the shop page.
           <ShoppingCart cartPrice={props.cartPrice} cart={props.cart} />
