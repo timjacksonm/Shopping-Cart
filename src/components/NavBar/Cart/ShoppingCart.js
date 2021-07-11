@@ -4,7 +4,6 @@ import Storage from '../../LocalStorage/LocalStorage';
 
 function ShoppingCart(props) {
   const [cartPrice, setCartPrice] = useState();
-  console.log(props);
   Storage.storeData(props.cart);
   const displayItemCount =
     props.cart.length === 1
@@ -24,6 +23,7 @@ function ShoppingCart(props) {
       setCartPrice(`$${props.cart[0].price}`);
       return;
     }
+    setCartPrice();
   }, [cartPrice, props.cart]);
   return (
     <div className='flex justify-center items-center md:absolute md:right-10'>

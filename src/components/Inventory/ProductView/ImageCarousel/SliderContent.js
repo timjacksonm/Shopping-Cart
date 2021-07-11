@@ -1,20 +1,17 @@
 import React from 'react';
 
 function SliderContent(props) {
-  console.log(props);
   return (
-    <>
-      <div className={props.imageStyle}>
-        {props.itemData.gallery.map((image) => (
-          <img
-            src={image}
-            alt={`Shop Item ${props.itemData.brand} ${props.itemData.category}`}
-            key={image}
-            className='w-80 h-80 max-w-md lg:w-auto lg:h-auto'
-          />
-        ))}
-      </div>
-    </>
+    <div className={props.imageStyle}>
+      {props.itemData.gallery.map((image) => (
+        <img
+          src={image}
+          alt={`Shop Item ${props.itemData.brand} ${props.itemData.category}`}
+          key={image}
+          className='w-80 h-80 max-w-md lg:w-auto lg:h-auto'
+        />
+      ))}
+    </div>
   );
 }
 
