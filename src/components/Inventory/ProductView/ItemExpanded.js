@@ -26,9 +26,9 @@ export default function itemExpanded(props) {
         <div className='flex flex-col items-center justify-center md:flex-row'>
           <div className='flex flex-col border-2 p-1 md:flex-row'>
             <ImageCarousel itemData={props.item} />
-            <ul className='flex flex-col text-left w-2/5 self-center text-sm list-inside md:text-base lg:list-disc md:p-2'>
+            <ul className='flex flex-col text-left self-center text-sm list-inside p-2 md:w-2/5 md:text-base lg:list-disc'>
               {props.item.description.map((bulletPoint) => (
-                <li key={bulletPoint} className='pt-1'>
+                <li key={bulletPoint} className='pt-2'>
                   {bulletPoint}
                 </li>
               ))}

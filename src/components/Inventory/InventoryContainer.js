@@ -13,7 +13,7 @@ export default function InventoryContainer(props) {
   }, [props.selectItemState]);
 
   return (
-    <div className='flex flex-grow flex-wrap py-20 justify-center bg-gray-300 bg-opacity-75'>
+    <div className='flex flex-grow flex-wrap py-20 justify-center bg-gray-800 bg-opacity-70'>
       {inventory.map(({ id, brand, name, price, previewImage }) => {
         return (
           <button
