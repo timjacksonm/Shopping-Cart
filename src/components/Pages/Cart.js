@@ -46,7 +46,7 @@ function Cart() {
   return (
     <div className='bg-default-pattern bg-cover h-screen'>
       <NavBar cart={cart} />
-      <div className='absolute top-20 h-full p-2 left-0 right-0 bg-white rounded overflow-auto md:h-5/6 md:top-28 md:right-0 md:left-0 md:mx-48'>
+      <div className='absolute top-20 h-full p-2 left-0 right-0 bg-white rounded overflow-auto md:h-5/6 md:top-28 md:right-0 md:left-0 md:mx-24 xl:mx-64'>
         <div className='m-4 text-lg font-bold underline'>Shopping Cart</div>
         {cart.map((item) => {
           if (duplicates.includes(item.id)) {
@@ -68,7 +68,7 @@ function Cart() {
                   className='hover:text-yellow-300'
                 />
               </div>
-              <div className='flex items-center text-lg md:mx-20 md:justify-end'>{`$${item.price}`}</div>
+              <div className='flex items-center text-lg font-bold  text-blue-800 md:mx-20 md:justify-end'>{`$${item.price}`}</div>
               <div className='flex flex-col md:flex-row'>
                 <img
                   className='my-1 w-28'

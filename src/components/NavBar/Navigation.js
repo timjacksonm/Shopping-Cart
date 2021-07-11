@@ -9,18 +9,6 @@ function Navigation(props) {
           <a
             className='m-5 inline-block hover:border-b-2 font-bold hover:border-yellow-300'
             href='#/'
-            onClick={(e) => {
-              if (window.location.href.includes('#/Shop')) {
-                if (props.cart.length > 0) {
-                  let choice = window.confirm(
-                    'Leave shop page? Cart will be reset.'
-                  );
-                  if (!choice) {
-                    e.preventDefault();
-                  }
-                }
-              }
-            }}
           >
             Home
           </a>

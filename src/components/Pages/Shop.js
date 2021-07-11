@@ -47,7 +47,10 @@ export default function Shop() {
           setQuanity={setQuanity}
         />
       )}
-      <InventoryContainer selectItem={clickHandler} />
+      <InventoryContainer
+        selectItemState={itemSelected}
+        selectItem={clickHandler}
+      />
     </div>
   );
 }
