@@ -33,14 +33,14 @@ The next couple images show responsiveness of my web application.
 
 - [✔️] Plan folder structure and component functionality I will need for this project.
 - [✔️] Use react-router-dom and give your webpage atleast two pages (a homepage and a shop page).
-- [] Create a sticky bar which displays the number of items currently in the shopping cart.
-- [] Build individual card items for each of your products. Display an input field on it, which lets a user manually type in how many items they want to buy. Also add an increment and decrement button next to it for fine tuning.
-- [] Once a user has submitted their order, the amount of the cart itself should adjust.
+- [✔️] Create a sticky bar which displays the number of items currently in the shopping cart.
+- [✔️] Build individual card items for each of your products. Display an input field on it, which lets a user manually type in how many items they want to buy. Also add an increment and decrement button next to it for fine tuning.
+- [✔️] Once a user has submitted their order, the amount of the cart itself should adjust.
 
 **Personal Extra Credit**
 
 - [✔️] Learn how to use TailwindCSS and use it to style your application.
-- [] Add a checkout page that calculates the total cost of cart.
+- [✔️] Add a checkout page that calculates the total cost of cart.
 - [✔️] Start working on your own local branch from now on and submit a pull request to be merged with origin.
 
 **View Commits on project to see changes**
