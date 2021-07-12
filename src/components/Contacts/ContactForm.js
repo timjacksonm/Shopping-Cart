@@ -6,7 +6,6 @@ function ContactForm() {
   const handleChange = (e) => {
     setInputs({ [e.target.name]: e.target.value });
   };
-  console.log(inputs);
   return (
     <form className='flex flex-col items-center bg-gray-600 text-white my-2 p-4 text-wrap'>
       <div className='font-bold py-2 w-full'>{'Name:'}</div>
@@ -73,7 +72,7 @@ function ContactForm() {
           rel='noreferrer'
           className='py-1 hover:text-yellow-300'
         >
-          Inventory Photos by Lowes - www.lowes.com
+          Inventory photos & item price/details by Lowes - www.lowes.com
         </a>
       </div>
     </form>
