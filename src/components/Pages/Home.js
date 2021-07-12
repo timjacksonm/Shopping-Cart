@@ -1,19 +1,23 @@
 import React from 'react';
 import Footer from '../Footer/Footer';
 import Nav from '../NavBar/NavBar';
-import PhotoLeft from '../../assets/painting.jpeg';
-import PhotoRight from '../../assets/workshop.jpeg';
-import Logo from '../../assets/Timberland Tools.png';
+import PhotoLeft from '../../assets/painting.webp';
+import PhotoRight from '../../assets/workshop.webp';
+import Logo from '../../assets/Timberland Tools.webp';
 
 function Home() {
   return (
     <div className='flex flex-col text-center h-screen bg-default-pattern bg-cover overflow-auto items-center'>
       <Nav />
-      <img className='mt-28 mb-8 px-4' src={Logo} alt='' />
+      <img className='mt-28 mb-8 px-4' src={Logo} alt='Timberland Tools Logo' />
       <main className='flex-grow p-5 bg-gray-800 text-white flex flex-col max-w-screen-lg self-center rounded'>
         <h1 className='text-yellow-300 font-bold m-5 md:text-xl'>About Us</h1>
         <div className='flex flex-col items-center justify-between md:flex-row'>
-          <img className='m-3 w-3/4 md:w-2/6' src={PhotoLeft} alt='' />
+          <img
+            className='m-3 w-3/4 md:w-2/6'
+            src={PhotoLeft}
+            alt='Painting a white wall'
+          />
           <p className='m-5 md:text-lg'>
             Eu culpa do ut fugiat magna incididunt non Lorem. Pariatur velit qui
             tempor cillum reprehenderit. Irure nisi Lorem cupidatat irure. Ea
@@ -40,7 +44,11 @@ function Home() {
             incididunt ea sunt exercitation nisi sint. Aute ex mollit sit
             nostrud consequat ex mollit id proident duis labore.
           </p>
-          <img className='m-3 md:w-1/2' src={PhotoRight} alt='' />
+          <img
+            className='m-3 md:w-1/2'
+            src={PhotoRight}
+            alt='A workspace with tools'
+          />
         </div>
       </main>
       <Footer />

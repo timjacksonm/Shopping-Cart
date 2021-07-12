@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: (theme) => ({
-        'default-pattern': "url('./assets/background.jpeg')",
+        'default-pattern': "url('./assets/background.webp')",
       }),
       translate: {
         fullx1: '-200%',

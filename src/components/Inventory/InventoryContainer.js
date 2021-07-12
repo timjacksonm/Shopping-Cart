@@ -25,7 +25,7 @@ export default function InventoryContainer(props) {
             <img
               className='p-4 border-t-2 md:border-t-0 cursor-pointer'
               src={previewImage}
-              alt=''
+              alt={name}
               height='220px'
               width='220px'
               id={id}
