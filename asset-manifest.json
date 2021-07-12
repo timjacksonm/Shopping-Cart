@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Shopping-Cart/static/css/main.b1283023.chunk.css",
-    "main.js": "/Shopping-Cart/static/js/main.fd05ac14.chunk.js",
-    "main.js.map": "/Shopping-Cart/static/js/main.fd05ac14.chunk.js.map",
+    "main.css": "/Shopping-Cart/static/css/main.e62b6f2d.chunk.css",
+    "main.js": "/Shopping-Cart/static/js/main.056438c1.chunk.js",
+    "main.js.map": "/Shopping-Cart/static/js/main.056438c1.chunk.js.map",
     "runtime-main.js": "/Shopping-Cart/static/js/runtime-main.e7ad73ea.js",
     "runtime-main.js.map": "/Shopping-Cart/static/js/runtime-main.e7ad73ea.js.map",
     "static/js/2.31d97be3.chunk.js": "/Shopping-Cart/static/js/2.31d97be3.chunk.js",
     "static/js/2.31d97be3.chunk.js.map": "/Shopping-Cart/static/js/2.31d97be3.chunk.js.map",
     "index.html": "/Shopping-Cart/index.html",
-    "static/css/main.b1283023.chunk.css.map": "/Shopping-Cart/static/css/main.b1283023.chunk.css.map",
+    "static/css/main.e62b6f2d.chunk.css.map": "/Shopping-Cart/static/css/main.e62b6f2d.chunk.css.map",
     "static/js/2.31d97be3.chunk.js.LICENSE.txt": "/Shopping-Cart/static/js/2.31d97be3.chunk.js.LICENSE.txt",
     "static/media/Bosch_Drill_Image_1.aab09ac6.webp": "/Shopping-Cart/static/media/Bosch_Drill_Image_1.aab09ac6.webp",
     "static/media/Bosch_Drill_Image_2.ecabdfdf.webp": "/Shopping-Cart/static/media/Bosch_Drill_Image_2.ecabdfdf.webp",
@@ -70,15 +70,15 @@
     "static/media/Thors_Mjolnir_Image_2.88f84027.webp": "/Shopping-Cart/static/media/Thors_Mjolnir_Image_2.88f84027.webp",
     "static/media/Thors_Mjolnir_Image_3.fd302a2f.webp": "/Shopping-Cart/static/media/Thors_Mjolnir_Image_3.fd302a2f.webp",
     "static/media/Thors_Mjolnir_Preview_Image.f3f7d09a.webp": "/Shopping-Cart/static/media/Thors_Mjolnir_Preview_Image.f3f7d09a.webp",
-    "static/media/Timberland Tools.bd6820c1.png": "/Shopping-Cart/static/media/Timberland Tools.bd6820c1.png",
-    "static/media/index.css": "/Shopping-Cart/static/media/background.a838d250.jpeg",
-    "static/media/painting.5a2a925d.jpeg": "/Shopping-Cart/static/media/painting.5a2a925d.jpeg",
-    "static/media/workshop.e8e4d1e8.jpeg": "/Shopping-Cart/static/media/workshop.e8e4d1e8.jpeg"
+    "static/media/Timberland Tools.11eadd6f.webp": "/Shopping-Cart/static/media/Timberland Tools.11eadd6f.webp",
+    "static/media/index.css": "/Shopping-Cart/static/media/background.eddb8897.webp",
+    "static/media/painting.0d191cfa.webp": "/Shopping-Cart/static/media/painting.0d191cfa.webp",
+    "static/media/workshop.4d240d83.webp": "/Shopping-Cart/static/media/workshop.4d240d83.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.e7ad73ea.js",
     "static/js/2.31d97be3.chunk.js",
-    "static/css/main.b1283023.chunk.css",
-    "static/js/main.fd05ac14.chunk.js"
+    "static/css/main.e62b6f2d.chunk.css",
+    "static/js/main.056438c1.chunk.js"
   ]
 }
