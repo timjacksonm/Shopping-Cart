@@ -73,7 +73,7 @@ function Cart() {
                 <img
                   className='my-1 w-28'
                   src={item.previewImage}
-                  alt='item.id'
+                  alt={item.name}
                 />
                 <div className='flex w-32 justify-around items-center p-2 m-1'>
                   <div className='mx-2 text-center'>{`Qty ${
