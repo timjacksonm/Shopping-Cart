@@ -1,6 +1,5 @@
 <h1 align="center">
-   <image src="#" width="100%"> 
-  <image src="#" width="30%"> 
+   <image src="/src/assets/Timberland Tools.webp" width="40%"> 
 </h1>
 
 <h4 align="center">Shopping Cart. I used React, HTML, TailwindCSS & JavaScript for this project.</h4>
@@ -21,12 +20,44 @@
 <details>
   <summary>Show Image</summary>
 
-<image src="#">
+<image src="/src/assets/timberlandtoolsdemo.gif">
 
 The next couple images show responsiveness of my web application.
 
-<image src="#">
-<image src="#">
+---
+
+   Home screen Galaxy S5 View
+   
+<image src="/src/assets/galaxys5.png">
+   
+---
+   
+Ipad shop inventory View
+   
+<image src="/src/assets/ipad.png">
+   
+---
+   
+Galaxy S5 item expanded details View
+   
+<image src="/src/assets/galaxys5_2.png">
+
+---
+   
+Iphone X expanded details View
+   
+<image src="/src/assets/iphonex2.png">
+   
+---
+   
+Iphone X contact us View
+   
+<image src="/src/assets/iphonex.png">
+   
+---
+   
+
+   
 </details>
 
 ## Goals:
@@ -47,7 +78,7 @@ The next couple images show responsiveness of my web application.
 
 ## Summary
 
-This project gave me more experience and a better understanding of how to write an application in React. The two main goals that allowed me to learn something new here was using React router and Tailwindcss. I have 4 pages total that uses react router. 3 are at the front, 1 is nested (the cart page). In retrospec I could have done a lot more pages with the router i.e. all of the items in the cart. I am overall happy with how the project turned out. Tailwindcss was difficult to get started but it grew on me and I definetly could see myself using it again. As always, I tend to go the extra mile and make sure my applications are mobile responsive. I learned that tailwindcss makes this really easy! sm:code, md:code, lg:code, xl:code was so much easier than writing media queries. Timberland Tools. Small inventory currently but feel free to browse around, you might not be strong enough for 'one' of our hammers.
+To be written.
 
 ## Author
 
