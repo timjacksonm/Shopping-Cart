@@ -11,6 +11,8 @@ export default function Shop() {
     localStorage.length === 0 ? [] : Storage.retrieveData()
   );
   const [quanity, setQuanity] = useState(1); //This state is for expanded item menu. Used when adding 1 or more of the same item to cart.
+  const bodyStylesNoScroll = 'relative flex flex-col flex-wrap text-center bg-default-pattern bg-cover items-center'
+  const bodyStyles = 'relative flex flex-col flex-wrap text-center bg-default-pattern bg-cover overflow-auto items-center'
 
   const clickHandler = (event, itemArray) => {
     setItem(...itemArray.filter((item) => item.id === event.target.id));
@@ -36,7 +38,7 @@ export default function Shop() {
   };
 
   return (
-    <div className='relative flex flex-col flex-wrap text-center bg-default-pattern bg-cover overflow-auto items-center'>
+    <div className={itemSelected ? bodyStylesNoScroll : bodyStyles}>
       <NavBar cart={cart} />
       {itemSelected && (
         <ItemExpanded
